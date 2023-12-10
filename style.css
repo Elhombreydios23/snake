@@ -1,0 +1,90 @@
+*{
+  margin: 0 0;
+  padding: 0 0;
+   background-image: url("IMG/fondo.png");
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+  
+}
+.contenedor{
+  width: 100%;
+  height: 100%;
+  display: block;
+  
+  align-items: center;
+}
+.titulo{
+  width: 50%;
+ height: 100px;
+ background: none;
+ align-items: center;
+ margin-left: 25%;
+}
+.titulo img{
+  width: 100%;
+  height: 100%;
+  background: none;
+  align-items: center;
+}
+#juego {
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 25%;
+    top: 100px;
+}
+.snake {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+}
+.comida {
+    width: 20px;
+    height: 20px;
+    
+    position: absolute;
+}
+
+
+#puntuacion {
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 0 125px;
+  color: white;
+  background: none;
+  
+  
+  
+}
+.abajo{
+  display: flex;
+  width: 50%;
+  margin: 0 25%;
+  height: auto;
+ background:none;
+align-items: center;
+
+
+}
+
+button{
+  margin: 0 20%;
+  width: 38px;
+  height: 38px;
+  border: none;
+  background:none;
+  color: white;
+}
+button img{
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+button p{
+  background: none;
+  font-size: 1rem;
+}
